@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>O Meu Bichinho — Espaço Pet em São Bernardo do Campo</title>
+<meta name="description" content="Banho com ozônio, tosa, táxi dog, veterinário, vacinas e reabilitação com esteira aquática no Nova Petrópolis, São Bernardo do Campo. Agende pelo WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FFF8EE;
+    --paper:#FFFCF7;
+    --sand:#F7EBDA;
+    --ink:#24182F;
+    --ink-soft:#5E5268;
+    --purple:#5B3B8C;
+    --purple-deep:#2B1D44;
+    --lilac:#E9DFF6;
+    --mustard:#F2A93B;
+    --orange:#E8792B;
+    --teal:#22A39B;
+    --red:#E2483D;
+    --blue:#2F6FD6;
+    --green:#58B04B;
+    --line:rgba(36,24,47,.12);
+    --radius:22px;
+    --wrap:1240px;
+    --ease:cubic-bezier(.2,.7,.2,1);
+    --mosaic:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='32'%3E%3Cg stroke='%23FFFCF7' stroke-width='2'%3E%3Crect width='16' height='16' fill='%23E2483D'/%3E%3Crect x='16' width='16' height='16' fill='%23F2A93B'/%3E%3Crect x='32' width='16' height='16' fill='%2322A39B'/%3E%3Crect x='48' width='16' height='16' fill='%232F6FD6'/%3E%3Crect x='64' width='16' height='16' fill='%2358B04B'/%3E%3Crect x='80' width='16' height='16' fill='%235B3B8C'/%3E%3Crect y='16' width='16' height='16' fill='%232F6FD6'/%3E%3Crect x='16' y='16' width='16' height='16' fill='%235B3B8C'/%3E%3Crect x='32' y='16' width='16' height='16' fill='%23E8792B'/%3E%3Crect x='48' y='16' width='16' height='16' fill='%2358B04B'/%3E%3Crect x='64' y='16' width='16' height='16' fill='%23E2483D'/%3E%3Crect x='80' y='16' width='16' height='16' fill='%2322A39B'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 28px}
+  h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.025em;line-height:1.02;font-weight:700}
+  h2{font-size:clamp(36px,5vw,62px)}
+  .hl{color:var(--purple);position:relative;white-space:nowrap}
+  .hl::after{content:"";position:absolute;left:-2%;right:-2%;bottom:.04em;height:.32em;background:var(--mustard);opacity:.45;z-index:-1;border-radius:6px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--purple)}
+  .eyebrow::before{content:"";width:18px;height:18px;background:var(--mosaic);background-size:48px 16px;border-radius:4px}
+  .mosaic-strip{height:14px;background:var(--mosaic);background-size:42px 14px}
+
+  .proposal{background:var(--purple-deep);color:#EDE6F7;font-size:13px;text-align:center;padding:9px 16px}
+  .proposal b{color:var(--mustard);font-weight:600}
+
+  /* Nav */
+  .nav{position:sticky;top:0;z-index:50;background:rgba(255,252,247,.85);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid transparent;transition:border-color .3s}
+  .nav.scrolled{border-bottom-color:var(--line)}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:24px}
+  .logo{display:inline-flex;align-items:center;gap:10px;background:var(--mustard);color:var(--ink);border-radius:14px;padding:7px 14px 7px 9px;box-shadow:inset 0 0 0 2px rgba(36,24,47,.9)}
+  .logo svg{width:30px;height:30px;flex:none}
+  .logo b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:19px;line-height:1;letter-spacing:-.02em}
+  .logo small{display:block;font-size:11px;font-weight:600;letter-spacing:.06em;margin-top:2px}
+  .menu{display:flex;gap:30px;font-size:15px;font-weight:500}
+  .menu a{position:relative;padding:4px 0}
+  .menu a::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:100%;background:var(--mustard);border-radius:2px;transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+  .menu a:hover::after{transform:scaleX(1)}
+  .btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:14px 24px;font-weight:700;font-size:15px;transition:transform .25s var(--ease),background .25s,box-shadow .25s;white-space:nowrap}
+  .btn svg{width:18px;height:18px;flex:none}
+  .btn-primary{background:var(--purple);color:#fff}
+  .btn-primary:hover{background:var(--purple-deep);transform:translateY(-2px);box-shadow:0 12px 26px -12px rgba(43,29,68,.7)}
+  .btn-sun{background:var(--mustard);color:var(--ink)}
+  .btn-sun:hover{background:#FFBC52;transform:translateY(-2px)}
+  .btn-ghost{border:1.5px solid currentColor}
+  .btn-ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;color:var(--ink)}
+  .burger svg{width:26px;height:26px}
+
+  /* Hero */
+  .hero{padding:24px 0 0}
+  .hero-frame{position:relative;border-radius:30px;overflow:hidden;min-height:min(84vh,780px);display:flex;align-items:flex-end;background:linear-gradient(135deg,#3B2A5C,#24182F)}
+  .hero-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 50%;animation:heroZoom 14s var(--ease) forwards;transform:scale(1.05)}
+  @keyframes heroZoom{to{transform:scale(1)}}
+  .hero-frame::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(36,24,47,.85) 0%,rgba(36,24,47,.55) 40%,rgba(36,24,47,0) 70%),linear-gradient(0deg,rgba(36,24,47,.5),rgba(36,24,47,0) 40%)}
+  .hero-copy{position:relative;z-index:2;color:#fff;padding:clamp(28px,6vw,76px);max-width:700px}
+  .hero-copy .eyebrow{color:#FFD58F}
+  .hero h1{font-size:clamp(44px,6.8vw,92px);margin:18px 0 22px}
+  .hero h1 em{font-style:normal;color:var(--mustard)}
+  .hero p.lead{font-size:clamp(17px,1.5vw,20px);color:rgba(255,255,255,.88);max-width:540px}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+  .hero .btn-ghost{color:#fff;border-color:rgba(255,255,255,.6)}
+  .hero .btn-ghost:hover{background:#fff;color:var(--ink);border-color:#fff}
+  .hero-badges{position:absolute;z-index:3;right:clamp(16px,3vw,40px);top:clamp(16px,3vw,40px);display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+  .badge{background:rgba(255,252,247,.95);backdrop-filter:blur(10px);border-radius:18px;padding:14px 18px;display:flex;gap:14px;align-items:center;box-shadow:0 18px 40px -20px rgba(0,0,0,.55);animation:float 6s ease-in-out infinite}
+  .badge:nth-child(2){animation-delay:-3s}
+  @keyframes float{50%{transform:translateY(-6px)}}
+  .badge .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:34px;line-height:1}
+  .badge small{display:block;font-size:13px;color:var(--ink-soft);line-height:1.3}
+  .stars{color:var(--mustard);letter-spacing:2px;font-size:14px}
+
+  /* Ticker */
+  .ticker{overflow:hidden;background:var(--ink);color:#fff;padding:20px 0;margin-top:52px}
+  .ticker-track{display:flex;width:max-content;animation:ticker 40s linear infinite}
+  .ticker span{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:clamp(20px,2.4vw,28px);display:flex;align-items:center;gap:34px;padding-right:34px;white-space:nowrap}
+  .ticker span::after{content:"";width:16px;height:16px;border-radius:4px;background:var(--mosaic);background-size:48px 16px}
+  @keyframes ticker{to{transform:translateX(-50%)}}
+
+  section{padding:clamp(80px,10vw,130px) 0}
+  .section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:52px;flex-wrap:wrap}
+  .section-head h2{margin-top:14px;max-width:720px}
+  .section-head p{max-width:420px;color:var(--ink-soft)}
+
+  /* Services */
+  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .svc{background:#fff;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
+  .svc:hover{transform:translateY(-8px);box-shadow:0 30px 60px -30px rgba(36,24,47,.35)}
+  .svc-img{aspect-ratio:4/4.2;overflow:hidden;position:relative;background:var(--sand)}
+  .svc-img img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease)}
+  .svc:hover .svc-img img{transform:scale(1.06)}
+  .chip-top{position:absolute;top:16px;left:16px;background:var(--mustard);color:var(--ink);font-size:12px;font-weight:700;padding:7px 12px;border-radius:999px}
+  .svc-body{padding:26px 26px 28px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .svc h3{font-size:28px}
+  .svc p{color:var(--ink-soft);font-size:15.5px;flex:1}
+  .svc .link{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--purple);margin-top:8px}
+  .svc .link svg{width:18px;height:18px;transition:transform .3s var(--ease)}
+  .svc:hover .link svg{transform:translateX(4px)}
+
+  /* Health */
+  .health{background:var(--purple-deep);color:#EFE8F8;position:relative;overflow:hidden}
+  .health .eyebrow{color:#FFD58F}
+  .health h2{color:#fff}
+  .health .hl{color:#fff}
+  .health .hl::after{opacity:.7;background:var(--purple)}
+  .health .section-head p{color:rgba(239,232,248,.75)}
+  .health-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:22px;align-items:stretch}
+  .health-feature{position:relative;border-radius:var(--radius);overflow:hidden;min-height:520px;display:flex;align-items:flex-end;background:#3B2A5C}
+  .health-feature img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .health-feature::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(43,29,68,.92),rgba(43,29,68,0) 55%)}
+  .health-feature div{position:relative;z-index:2;padding:32px}
+  .health-feature h3{font-size:clamp(28px,3vw,40px);color:#fff}
+  .health-feature p{color:rgba(255,255,255,.8);margin-top:8px;max-width:440px}
+  .health-list{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .hcard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:22px;transition:background .3s,transform .35s var(--ease)}
+  .hcard:hover{background:rgba(255,255,255,.11);transform:translateY(-4px)}
+  .hcard .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;margin-bottom:14px}
+  .hcard .ic svg{width:22px;height:22px}
+  .hcard h4{font-family:"Bricolage Grotesque",sans-serif;font-size:19px;color:#fff;font-weight:700;line-height:1.15}
+  .hcard p{font-size:14px;color:rgba(239,232,248,.7);margin-top:6px;line-height:1.5}
+  .hcard.wide{grid-column:span 2;display:flex;gap:18px;align-items:center;background:var(--mustard);color:var(--ink);border:0}
+  .hcard.wide h4{color:var(--ink)}
+  .hcard.wide p{color:rgba(36,24,47,.75)}
+  .hcard.wide .ic{margin:0;flex:none;background:var(--ink)!important;color:var(--mustard)}
+  .health-photos{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+  .health-photos div{border-radius:18px;overflow:hidden;aspect-ratio:1/1;background:#3B2A5C}
+  .health-photos img{width:100%;height:100%;object-fit:cover}
+
+  /* Taxi */
+  .taxi{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,80px);align-items:center}
+  .taxi-img{border-radius:28px;overflow:hidden;aspect-ratio:4/3;position:relative;background:var(--sand)}
+  .taxi-img img{width:100%;height:100%;object-fit:cover}
+  .taxi-img .mosaic-strip{position:absolute;left:0;right:0;bottom:0}
+  .taxi p{color:var(--ink-soft);margin-top:18px;max-width:500px}
+  .steps{display:grid;gap:14px;margin:30px 0 34px}
+  .step{display:flex;gap:16px;align-items:flex-start}
+  .step b{flex:none;width:36px;height:36px;border-radius:50%;background:var(--lilac);color:var(--purple);display:grid;place-items:center;font-family:"Bricolage Grotesque",sans-serif;font-size:16px}
+  .step span{padding-top:5px;font-weight:500}
+
+  /* Course */
+  .course{background:var(--sand)}
+  .course-card{display:grid;grid-template-columns:1.05fr 1fr;border-radius:30px;overflow:hidden;background:var(--ink);color:#fff}
+  .course-copy{padding:clamp(32px,5vw,64px);display:flex;flex-direction:column;justify-content:center}
+  .course-copy .eyebrow{color:#FFD58F}
+  .course-copy h2{color:#fff;margin-top:14px}
+  .course-copy p{color:rgba(255,255,255,.78);margin-top:18px;max-width:480px}
+  .pill-row{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 32px}
+  .pill{border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:9px 16px;font-size:14.5px;font-weight:500}
+  .pill strong{color:var(--mustard)}
+  .course-img{position:relative;min-height:420px;background:#3B2A5C}
+  .course-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .pct{position:absolute;left:24px;bottom:24px;background:var(--mustard);color:var(--ink);border-radius:20px;padding:16px 20px;font-family:"Bricolage Grotesque",sans-serif;line-height:1}
+  .pct b{font-size:46px;font-weight:800;display:block}
+  .pct span{font-size:14px;font-weight:600;font-family:"DM Sans",sans-serif}
+
+  /* Reviews */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-bottom:60px}
+  .stat{border-top:3px solid var(--ink);padding-top:18px}
+  .stat b{display:block;font-family:"Bricolage Grotesque",sans-serif;font-size:clamp(40px,4.4vw,60px);line-height:1;font-weight:800}
+  .stat span{color:var(--ink-soft);font-size:15px}
+  .stat:nth-child(1){border-color:var(--red)}.stat:nth-child(2){border-color:var(--mustard)}.stat:nth-child(3){border-color:var(--teal)}.stat:nth-child(4){border-color:var(--purple)}
+  .rev-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:22px}
+  .rev{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px;display:flex;flex-direction:column;justify-content:space-between;gap:26px}
+  .rev q{font-family:"Bricolage Grotesque",sans-serif;font-weight:500;font-size:clamp(20px,1.9vw,25px);line-height:1.3;letter-spacing:-.01em}
+  .rev.big{background:var(--mustard);border:0}
+  .rev.big q{font-size:clamp(26px,2.6vw,34px);font-weight:600}
+  .who{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--ink-soft)}
+  .rev.big .who{color:rgba(36,24,47,.75)}
+  .g{width:28px;height:28px;border-radius:50%;background:#fff;display:grid;place-items:center;font-weight:700;font-size:14px;color:#4285F4;border:1px solid var(--line)}
+
+  /* Visit */
+  .visit-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:22px}
+  .visit-card{background:var(--purple);color:#EFE8F8;border-radius:28px;padding:clamp(32px,4vw,56px);display:flex;flex-direction:column;gap:28px}
+  .visit-card h2{color:#fff}
+  .info{display:grid;gap:20px}
+  .info>div{display:flex;gap:16px;align-items:flex-start}
+  .info svg{width:22px;height:22px;flex:none;color:var(--mustard);margin-top:3px}
+  .info b{display:block;color:#fff;font-weight:700}
+  .info span,.info a{color:rgba(239,232,248,.8);font-size:15.5px}
+  .info a:hover{color:#fff}
+  .petlove{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.1);border-radius:999px;padding:8px 16px 8px 10px;font-size:14px;font-weight:600;align-self:flex-start}
+  .petlove i{font-style:normal;width:26px;height:26px;border-radius:50%;background:#fff;display:grid;place-items:center}
+  .map{border-radius:28px;overflow:hidden;min-height:480px;background:var(--sand)}
+  .map iframe{width:100%;height:100%;min-height:480px;border:0}
+
+  /* CTA band */
+  .cta-band{padding:0 0 clamp(80px,10vw,120px)}
+  .band{border-radius:30px;background:var(--mustard);padding:clamp(40px,6vw,80px);display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap;position:relative;overflow:hidden}
+  .band::before{content:"";position:absolute;right:0;top:0;bottom:0;width:min(34%,320px);background:var(--mosaic);background-size:72px 24px;opacity:.9;-webkit-mask:linear-gradient(90deg,transparent,#000 60%);mask:linear-gradient(90deg,transparent,#000 60%)}
+  .band h2{max-width:640px;position:relative}
+  .band .btn{position:relative}
+
+  footer{background:var(--ink);color:rgba(255,255,255,.7);padding:52px 0 40px;font-size:14px}
+  footer .wrap{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;align-items:center}
+  .social{display:flex;gap:12px;margin-right:84px}
+  .social a{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.22);display:grid;place-items:center;transition:all .25s}
+  .social a:hover{background:#fff;color:var(--ink)}
+  .social svg{width:18px;height:18px}
+
+  .fab{position:fixed;right:22px;bottom:22px;z-index:60;width:62px;height:62px;border-radius:50%;background:#25D366;color:#fff;display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(37,211,102,.7);transition:transform .3s var(--ease)}
+  .fab:hover{transform:scale(1.08)}
+  .fab svg{width:30px;height:30px}
+  .fab::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25D366;animation:pulse 2.4s infinite}
+  @keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.55);opacity:0}}
+
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+
+  .mobile-menu{display:none}
+  @media (max-width:1020px){
+    .menu,.nav .btn{display:none}
+    .burger{display:grid;place-items:center}
+    .mobile-menu{position:fixed;left:0;right:0;top:78px;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 28px 28px;display:none;flex-direction:column;z-index:49}
+    .mobile-menu.open{display:flex}
+    .mobile-menu a{padding:14px 0;border-bottom:1px solid var(--line);font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:24px}
+    .mobile-menu .btn{margin-top:18px;justify-content:center;font-family:"DM Sans",sans-serif;font-size:16px;border-bottom:0}
+    .svc-grid{grid-template-columns:1fr 1fr}
+    .health-grid,.taxi,.course-card,.visit-grid{grid-template-columns:1fr}
+    .rev-grid{grid-template-columns:1fr}
+    .stats{grid-template-columns:1fr 1fr}
+    .hero-badges{position:relative;right:auto;top:auto;flex-direction:row;flex-wrap:wrap;align-items:stretch;padding:0 clamp(28px,6vw,76px) clamp(28px,6vw,76px)}
+    .hero-frame{flex-direction:column;align-items:stretch;justify-content:flex-end}
+  }
+  @media (max-width:620px){
+    .wrap{padding:0 16px}
+    body{font-size:16px}
+    .hero{padding-top:12px}
+    .hero-frame{border-radius:22px;min-height:auto;padding-top:280px}
+    .hero-frame img{height:58%;object-position:72% 40%}
+    .hero-frame::after{background:linear-gradient(0deg,rgba(36,24,47,.96) 0%,rgba(36,24,47,.8) 52%,rgba(36,24,47,.05) 100%)}
+    .hero-ctas .btn{width:100%;justify-content:center}
+    .hero-badges{padding:0 22px 22px}
+    .badge{flex:1;min-width:140px;padding:12px 14px}
+    .badge .big{font-size:28px}
+    .svc-grid{grid-template-columns:1fr}
+    .health-list{grid-template-columns:1fr}
+    .hcard.wide{grid-column:auto}
+    .health-feature{min-height:400px}
+    .course-img{min-height:300px}
+    .stats{gap:28px 18px}
+    .social{margin-right:0}
+    footer{padding-bottom:110px}
+    .fab{right:16px;bottom:16px}
+    .proposal{font-size:12px}
+    .logo b{font-size:17px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important}
+    .reveal{opacity:1;transform:none}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<div class="proposal">🐾 Prévia exclusiva de proposta — <b>conceito de site para O Meu Bichinho Espaço Pet</b></div>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#topo" class="logo" aria-label="O Meu Bichinho Espaço Pet — início">
+      <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><ellipse cx="16" cy="21" rx="7" ry="6"/><ellipse cx="7.5" cy="13" rx="3" ry="3.8"/><ellipse cx="24.5" cy="13" rx="3" ry="3.8"/><ellipse cx="12" cy="7.5" rx="2.8" ry="3.6"/><ellipse cx="20" cy="7.5" rx="2.8" ry="3.6"/></svg>
+      <span><b>O meu bichinho</b><small>espaço pet</small></span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#servicos">Banho & tosa</a>
+      <a href="#saude">Saúde & reabilitação</a>
+      <a href="#taxi">Táxi dog</a>
+      <a href="#curso">Curso</a>
+      <a href="#visite">Visite</a>
+    </nav>
+    <a class="btn btn-primary" data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet." href="#">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-.99.24-3.33-.69-2.81-1.11-4.6-3.98-4.74-4.17-.14-.18-1.12-1.49-1.12-2.85 0-1.35.71-2.02.96-2.29.25-.28.55-.35.73-.35l.53.01c.17.01.4-.06.62.48.23.55.78 1.9.85 2.04.07.14.11.3.02.48-.09.18-.14.3-.28.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.6-.07.16-.18.69-.81.88-1.09.18-.28.37-.23.62-.14.25.09 1.6.76 1.88.9.28.14.46.21.53.32.07.12.07.67-.18 1.36Z"/></svg>
+      Agendar
+    </a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg>
+    </button>
+  </div>
+</header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="Menu móvel">
+  <a href="#servicos">Banho & tosa</a>
+  <a href="#saude">Saúde & reabilitação</a>
+  <a href="#taxi">Táxi dog</a>
+  <a href="#curso">Curso de banho e tosa</a>
+  <a href="#visite">Visite a loja</a>
+  <a class="btn btn-primary" data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet." href="#">Agendar pelo WhatsApp</a>
+</nav>
+
+<main id="topo">
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-frame">
+        <img src="assets/hero.jpg" alt="Shih Tzu recém-banhado com lacinho roxo, enrolado em toalha, em frente a uma parede de pastilhas coloridas" onerror="this.remove()">
+        <div class="hero-copy">
+          <span class="eyebrow">Pet shop · Nova Petrópolis, SBC</span>
+          <h1>Cheirosinho, feliz e <em>cuidado com amor.</em></h1>
+          <p class="lead">Banho com ozônio, tosa, veterinário e reabilitação num só lugar. Aqui seu bichinho é tratado como da família — e você acompanha tudo pelo WhatsApp.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-sun" data-wa="Olá! Vim pelo site e quero agendar banho e tosa para o meu pet." href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-.99.24-3.33-.69-2.81-1.11-4.6-3.98-4.74-4.17-.14-.18-1.12-1.49-1.12-2.85 0-1.35.71-2.02.96-2.29.25-.28.55-.35.73-.35l.53.01c.17.01.4-.06.62.48.23.55.78 1.9.85 2.04.07.14.11.3.02.48-.09.18-.14.3-.28.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.6-.07.16-.18.69-.81.88-1.09.18-.28.37-.23.62-.14.25.09 1.6.76 1.88.9.28.14.46.21.53.32.07.12.07.67-.18 1.36Z"/></svg>
+              Agendar banho & tosa
+            </a>
+            <a class="btn btn-ghost" href="#servicos">Conhecer serviços</a>
+          </div>
+        </div>
+        <div class="hero-badges">
+          <div class="badge"><span class="big">4,9</span><div><div class="stars" aria-label="4,9 de 5 estrelas">★★★★★</div><small>49 avaliações<br>no Google</small></div></div>
+          <div class="badge"><span class="big">44 mil</span><small>tutores seguem<br>no Instagram</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Banho com ozônio</span><span>Tosa</span><span>Táxi dog</span><span>Veterinário</span><span>Vacinas</span><span>Esteira aquática</span><span>Laserterapia</span><span>Ozonioterapia</span><span>Atendemos Petlove</span>
+      <span>Banho com ozônio</span><span>Tosa</span><span>Táxi dog</span><span>Veterinário</span><span>Vacinas</span><span>Esteira aquática</span><span>Laserterapia</span><span>Ozonioterapia</span><span>Atendemos Petlove</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="servicos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Banho & tosa</span>
+          <h2>O dia de beleza que <span class="hl">eles adoram</span>.</h2>
+        </div>
+        <p>Tem cliente que já sabe o caminho até a sala de banho e sobe sozinho. É esse o carinho que a gente coloca em cada atendimento.</p>
+      </div>
+      <div class="svc-grid">
+        <a class="svc reveal" href="#" data-wa="Olá! Quero agendar um banho com ozônio para o meu pet.">
+          <div class="svc-img"><img src="assets/banho.jpg" alt="Cachorro tomando banho com espuma" loading="lazy" onerror="this.remove()"><span class="chip-top">Diferencial</span></div>
+          <div class="svc-body"><h3>Banho com ozônio</h3><p>Higiene profunda que ajuda a cuidar da pele e do pelo, com produtos de qualidade e muito cuidado do começo ao fim.</p><span class="link">Agendar banho <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="svc reveal" href="#" data-wa="Olá! Quero agendar uma tosa para o meu pet.">
+          <div class="svc-img"><img src="assets/tosa.jpg" alt="Tosador aparando o pelo de um lulu da pomerânia" loading="lazy" onerror="this.remove()"></div>
+          <div class="svc-body"><h3>Tosa</h3><p>Higiênica, na tesoura ou na máquina — do jeitinho que combina com a raça e com a rotina do seu pet.</p><span class="link">Agendar tosa <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+        <a class="svc reveal" href="#" data-wa="Olá! Quero saber como funciona o táxi dog.">
+          <div class="svc-img"><img src="assets/taxi.jpg" alt="Beagle feliz olhando pela janela do carro" loading="lazy" onerror="this.remove()"><span class="chip-top">Busca e entrega</span></div>
+          <div class="svc-body"><h3>Táxi dog</h3><p>Sem tempo? A gente busca seu bichinho em casa e devolve limpinho e cheiroso. Prático para você, tranquilo para ele.</p><span class="link">Pedir táxi dog <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="mosaic-strip" aria-hidden="true"></div>
+
+  <!-- HEALTH -->
+  <section class="health" id="saude">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Saúde & reabilitação</span>
+          <h2>Muito mais que um pet shop: <span class="hl">cuidado completo</span>.</h2>
+        </div>
+        <p>Veterinário, vacinas e um centro de reabilitação com terapias que ajudam na recuperação, na mobilidade e na qualidade de vida do seu pet.</p>
+      </div>
+      <div class="health-grid">
+        <div class="reveal">
+          <div class="health-feature">
+            <img src="assets/hidro.jpg" alt="Golden retriever caminhando na esteira aquática" loading="lazy" onerror="this.remove()">
+            <div><h3>Esteira aquática</h3><p>Hidroterapia que fortalece músculos e articulações com baixo impacto — ideal no pós-cirúrgico, para idosos e pets com sobrepeso.</p></div>
+          </div>
+          <div class="health-photos">
+            <div><img src="assets/vet.jpg" alt="Veterinária examinando um gato" loading="lazy" onerror="this.remove()"></div>
+            <div><img src="assets/reab.jpg" alt="Labrador recebendo massagem terapêutica" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </div>
+        <div class="health-list">
+          <div class="hcard reveal"><div class="ic" style="background:rgba(226,72,61,.18);color:#FF8A80"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4.5 12.5a7.5 7.5 0 0 0 15 0V5h-3M4.5 12.5V5h3"/><circle cx="19.5" cy="5" r="0"/><path d="M12 20v-2"/></svg></div><h4>Veterinário para cães e gatos</h4><p>Consultas com atenção e paciência, no tempo do seu pet.</p></div>
+          <div class="hcard reveal"><div class="ic" style="background:rgba(242,169,59,.18);color:#FFC46B"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m18 2 4 4M17 7l3-3M19 9 9 19l-4 1 1-4L16 6zM14 7l3 3"/></svg></div><h4>Vacinas & exames</h4><p>Carteirinha em dia e exames para acompanhar a saúde.</p></div>
+          <div class="hcard reveal"><div class="ic" style="background:rgba(34,163,155,.2);color:#5FD8CF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg></div><h4>Laserterapia</h4><p>Alívio de dor e inflamação, acelerando a recuperação.</p></div>
+          <div class="hcard reveal"><div class="ic" style="background:rgba(47,111,214,.22);color:#86B2FF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="8" r="2"/><circle cx="15" cy="16" r="3.5"/></svg></div><h4>Ozonioterapia</h4><p>Terapia complementar para pele, feridas e bem-estar.</p></div>
+          <div class="hcard reveal"><div class="ic" style="background:rgba(88,176,75,.2);color:#93E085"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 11V6a2 2 0 1 1 4 0v4M11 10V4a2 2 0 1 1 4 0v6M15 10V6a2 2 0 1 1 4 0v7a7 7 0 0 1-7 7h-1a6 6 0 0 1-5-2.7L4 15a2 2 0 0 1 3-2.6L7 13"/></svg></div><h4>Massagem</h4><p>Relaxamento e conforto, especialmente para os mais idosos.</p></div>
+          <div class="hcard reveal"><div class="ic" style="background:rgba(233,223,246,.18);color:#D9C8F5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/><path d="M7 12h3l1.5-3 2 5 1.5-2h2"/></svg></div><h4>Reabilitação pós-cirúrgica</h4><p>Acompanhamento para voltar a correr e brincar com segurança.</p></div>
+          <a class="hcard wide reveal" href="#" data-wa="Olá! Gostaria de saber mais sobre as terapias de reabilitação para o meu pet.">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Z"/></svg></div>
+            <div><h4>Seu pet precisa de reabilitação?</h4><p>Conte o caso pelo WhatsApp e a gente indica o melhor caminho.</p></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAXI DOG -->
+  <section id="taxi">
+    <div class="wrap taxi">
+      <div class="taxi-img reveal">
+        <img src="assets/entrega.jpg" alt="Tosador entregando um maltês recém-banhado à tutora na porta de casa" loading="lazy" onerror="this.remove()">
+        <div class="mosaic-strip"></div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Táxi dog</span>
+        <h2 style="margin-top:14px">A gente busca. <span class="hl">Ele volta</span> lindo.</h2>
+        <p>Para a sua rotina corrida não atrapalhar o cuidado com quem você ama. É só agendar e deixar com a gente.</p>
+        <div class="steps">
+          <div class="step"><b>1</b><span>Você agenda pelo WhatsApp o dia e o serviço.</span></div>
+          <div class="step"><b>2</b><span>Buscamos seu pet em casa, com todo o cuidado.</span></div>
+          <div class="step"><b>3</b><span>Banho, tosa ou terapia feitos com carinho.</span></div>
+          <div class="step"><b>4</b><span>Ele volta para casa cheiroso e feliz. 💜</span></div>
+        </div>
+        <a class="btn btn-primary" data-wa="Olá! Quero agendar com táxi dog. Qual é a disponibilidade para o meu bairro?" href="#">Agendar com táxi dog</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSE -->
+  <section class="course" id="curso">
+    <div class="wrap">
+      <div class="course-card reveal">
+        <div class="course-copy">
+          <span class="eyebrow">Curso de banho e tosa</span>
+          <h2>Transforme amor por animais em <span style="color:var(--mustard)">profissão</span>.</h2>
+          <p>Aprenda com quem vive a rotina de um pet shop de verdade. Turmas pequenas, muita prática com os pets e acompanhamento de perto para você sair pronto para o mercado.</p>
+          <div class="pill-row">
+            <span class="pill"><strong>70%</strong> prático</span>
+            <span class="pill">Banho e tosa básico</span>
+            <span class="pill">Especializações</span>
+            <span class="pill">Turmas reduzidas</span>
+          </div>
+          <a class="btn btn-sun" style="align-self:flex-start" data-wa="Olá! Tenho interesse no curso de banho e tosa. Quando abre a próxima turma?" href="#">Quero saber da próxima turma</a>
+        </div>
+        <div class="course-img">
+          <img src="assets/curso.jpg" alt="Alunos praticando tosa em um poodle com a orientação da instrutora" loading="lazy" onerror="this.remove()">
+          <div class="pct"><b>70%</b><span>da aula é prática</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="avaliacoes">
+    <div class="wrap">
+      <div class="stats reveal">
+        <div class="stat"><b>4,9★</b><span>nota no Google</span></div>
+        <div class="stat"><b>44 mil</b><span>seguidores no Instagram</span></div>
+        <div class="stat"><b>19 mil</b><span>momentos publicados</span></div>
+        <div class="stat"><b>5,0★</b><span>nota no Facebook</span></div>
+      </div>
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Quem conhece, confia</span>
+          <h2>Os tutores <span class="hl">contam por nós</span>.</h2>
+        </div>
+        <p>Avaliações reais de clientes no Google.</p>
+      </div>
+      <div class="rev-grid">
+        <div class="rev big reveal"><q>Bento, meu cachorro, já sabe até o caminho até a sala de banho, sobe sozinho!!!</q><div class="who"><span class="g">G</span>Avaliação no Google · ★★★★★</div></div>
+        <div class="rev reveal"><q>Ela ama o que faz e podemos sentir isso no trato que ela tem com os animais.</q><div class="who"><span class="g">G</span>Avaliação no Google</div></div>
+        <div class="rev reveal"><q>Excelentes produtos, muito carinhosos com o animal… excelente atendimento!</q><div class="who"><span class="g">G</span>Avaliação no Google</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section id="visite" style="padding-top:0">
+    <div class="wrap visit-grid">
+      <div class="visit-card reveal">
+        <div>
+          <span class="eyebrow" style="color:#FFD58F">Visite a loja</span>
+          <h2 style="margin-top:14px">Vem conhecer o nosso cantinho colorido.</h2>
+        </div>
+        <div class="info">
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg><p><b>Endereço</b><a href="https://www.google.com/maps/search/?api=1&query=O+Meu+Bichinho+Espa%C3%A7o+Pet+Avenida+Wallace+Simonsen+498+S%C3%A3o+Bernardo+do+Campo" target="_blank" rel="noopener">Av. Wallace Simonsen, 498 · Nova Petrópolis<br>São Bernardo do Campo – SP · 09771-210</a></p></div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p><b>Horário</b><span>Das 9h às 18h — confirme os dias de atendimento pelo WhatsApp.</span></p></div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><p><b>WhatsApp & telefone</b><a href="#" data-wa="Olá! Vim pelo site.">(11) 99003-5265</a></p></div>
+        </div>
+        <span class="petlove"><i>💜</i>Atendemos Petlove</span>
+        <a class="btn btn-sun" style="align-self:flex-start" href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Wallace+Simonsen,+498+-+Nova+Petr%C3%B3polis,+S%C3%A3o+Bernardo+do+Campo+-+SP,+09771-210" target="_blank" rel="noopener">Como chegar →</a>
+      </div>
+      <div class="map reveal">
+        <iframe title="Mapa do O Meu Bichinho Espaço Pet" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Avenida+Wallace+Simonsen,+498+-+Nova+Petr%C3%B3polis,+S%C3%A3o+Bernardo+do+Campo+-+SP&z=16&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-band">
+    <div class="wrap">
+      <div class="band reveal">
+        <h2>Seu bichinho merece esse carinho. Bora agendar?</h2>
+        <a class="btn btn-primary" data-wa="Olá! Vim pelo site e quero agendar um horário para o meu pet." href="#">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="#topo" class="logo" aria-label="O Meu Bichinho — voltar ao topo">
+      <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><ellipse cx="16" cy="21" rx="7" ry="6"/><ellipse cx="7.5" cy="13" rx="3" ry="3.8"/><ellipse cx="24.5" cy="13" rx="3" ry="3.8"/><ellipse cx="12" cy="7.5" rx="2.8" ry="3.6"/><ellipse cx="20" cy="7.5" rx="2.8" ry="3.6"/></svg>
+      <span><b>O meu bichinho</b><small>espaço pet</small></span>
+    </a>
+    <span>© 2026 O Meu Bichinho Espaço Pet · Av. Wallace Simonsen, 498 – São Bernardo do Campo</span>
+    <div class="social">
+      <a href="https://www.instagram.com/omeubichinhoespacopet/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+      <a href="https://www.facebook.com/search/top?q=O%20Meu%20Bichinho%20Espa%C3%A7o%20Pet" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21h3Z"/></svg></a>
+      <a href="#" data-wa="Olá! Vim pelo site." aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Z"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" href="#" data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet." aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-.99.24-3.33-.69-2.81-1.11-4.6-3.98-4.74-4.17-.14-.18-1.12-1.49-1.12-2.85 0-1.35.71-2.02.96-2.29.25-.28.55-.35.73-.35l.53.01c.17.01.4-.06.62.48.23.55.78 1.9.85 2.04.07.14.11.3.02.48-.09.18-.14.3-.28.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.6-.07.16-.18.69-.81.88-1.09.18-.28.37-.23.62-.14.25.09 1.6.76 1.88.9.28.14.46.21.53.32.07.12.07.67-.18 1.36Z"/></svg>
+</a>
+
+<script>
+  const WA = '5511990035265';
+  document.querySelectorAll('[data-wa]').forEach(a => {
+    a.href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(a.dataset.wa);
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 10), {passive:true});
+  const burger = document.getElementById('burger'), mm = document.getElementById('mobileMenu');
+  burger.addEventListener('click', () => {
+    mm.style.top = nav.getBoundingClientRect().bottom + 'px';
+    const open = mm.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  mm.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { mm.classList.remove('open'); burger.setAttribute('aria-expanded', false); }));
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
